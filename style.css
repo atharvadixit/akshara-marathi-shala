@@ -16,7 +16,7 @@ body {
     margin-left: 15px;
 }
 .header-bg {
-    background-image: url('/Users/vedantkatti/Documents/akshara-marathi-shala-main/image2.png');
+    background-image: url('image2.png');
     background-size: cover;
     height: 900px;
     display: flex;
