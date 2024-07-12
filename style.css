@@ -4,6 +4,7 @@ body {
 }
 .navbar {
     background-color: #f1f1f1;
+    
 }
 .navbar-brand, .nav-link, .btn-register {
     color: black !important;
@@ -15,15 +16,16 @@ body {
     margin-left: 15px;
 }
 .header-bg {
-    background-image: url('/Users/vedantkatti/Documents/Akshara_Classes/yogendra-singh-yR0QwMbMjT8-unsplash.jpg');
+    background-image: url('/Users/vedantkatti/Documents/akshara-marathi-shala-main/image2.png');
     background-size: cover;
-    color: white;
     height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     position: relative;
+    margin-left: -90px;
+    margin-right: -90px;
 }
 .header-bg h1 {
     font-size: 4rem;
@@ -117,4 +119,92 @@ footer {
 }
 .about-section .btn-primary:hover {
     background-color: #45a049;
+}
+
+.pgm-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+h1 {
+    color: black;
+}
+p {
+    font-size: 1.1em;
+    margin: 20px 0;
+}
+.program-details {
+    text-align: left;
+    padding: 0 20px;
+}
+h4 {
+    color: #004080;
+}
+ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    font-size: 1.1em;
+}
+li {
+    margin: 10px 0;
+}
+
+.card-body{
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+.card-course{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+}
+.card-course h3 {
+    color: #004080;
+    margin-bottom: 20px;
+}
+.card-course ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.card-course ul li {
+    margin: 10px 0;
+}
+.card-course button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.card-course button:hover {
+    background-color: #218838;
+}
+.fee-structure {
+    display: none;
+    text-align: left;
+    margin-top: 20px;
 }
