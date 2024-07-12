@@ -9,175 +9,67 @@
     <!-- Font Awesome CSS for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="style.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <a class="navbar-brand" href="#"><i class="fas fa-school"></i> अक्षरा मराठी शाळा</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="Logo" style="height:50px;"> <!-- Adjust height as needed -->
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#"><i class="fas fa-home"></i> Home</a>
+                    <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about"><i class="fas fa-info-circle"></i> About Us</a>
+                    <a class="nav-link" href="#about">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact Us</a>
+                    <a class="nav-link" href="#contact">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                    <button class="btn btn-success btn-register" data-toggle="modal" data-target="#registerModal"><i class="fas fa-user-plus"></i> Register Here</button>
+                    <button class="btn btn-success" data-toggle="modal" data-target="#registerModal">Register Here</button>
                 </li>
             </ul>
         </div>
     </nav>
+    
 
     <!-- Header -->
-    <header class="header-bg">
-        <h1>अक्षरा मराठी शाळा</h1>
+    <header class="header-img">
+        <img src="./background-image.jpeg" alt="Header Image" class="img-fluid">
     </header>
-
-    <!-- Register Form Modal -->
-    <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="registerModalLabel">Register</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-
-                
-                    <div class="modal-body">
-                        <!-- Embed your Google Form here -->
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfAnHf_cWTTs5BXjmKFp_UG_MczVRNWDnnHmj6wc8ZoIBuhAA/viewform?embedded=true" width="480" height="560" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>                    </div>
-                <!-- <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="name"><i class="fas fa-user"></i> Your Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
-                        </div>
-                        <div class="form-group">
-                            <label for="email"><i class="fas fa-envelope"></i> Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
-                        </div>
-                        <div class="form-group">
-                            <label for="parentsName"><i class="fas fa-user-friends"></i> Parents' Name</label>
-                            <input type="text" class="form-control" id="parentsName" placeholder="Enter your parents' name">
-                        </div>
-                        <div class="form-group">
-                            <label for="grade"><i class="fas fa-graduation-cap"></i> Grade</label>
-                            <input type="text" class="form-control" id="grade" placeholder="Enter your grade">
-                        </div>
-                        <div class="form-group">
-                            <label for="message"><i class="fas fa-comment-alt"></i> Message</label>
-                            <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Submit</button>
-                    </form>
-                </div> -->
-
-
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 
     <!-- Main Content -->
-    <div class="container">
-        <div class="row about-us" id="about">
-            <marquee style="color: red; font-size:26px"> <em> <b> Register Now! Classes begins from August 24'!!</b> </em></marquee>
-
-            <div class="container about-section" id="about">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="icon-box">
-                            <i class="fas fa-school"></i>
-                        </div>
-                        <h2>About Us</h2>
-                        <p>Welcome to Akshara Marathi Shala, a dedicated platform for learning the beautiful Marathi language. Our school offers comprehensive courses and resources to help you master Marathi.
-                            <br>
-                            This is an Online Marathi Shala, where students from any age above 5 years, will be taught about Marathi Language, from its basics to advanced levels.
-                            Online classes will be conducted by <b> Mrs. Priyanka Kulkarni </b>, with an experience of <b>6 years</b> into teaching Marathi Language, we assure you,
-                            students will get good knowledge on Marathi Language in terms of Speaking, writing and understanding the language from basic to an advanced level.</p>
-                    </div>
-                </div>
+    <div class="container mt-5">
+        <div class="row" id="about">
+            <div class="col-12">
+                <h2>About Us</h2>
+                <p>Welcome to Akshara Marathi Shala...</p>
             </div>
         </div>
-
-         <!-- Testimonial Carousel -->
-         <!-- <div id="testimonialCarousel" class="carousel slide testimonial-carousel" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <h1 style="color: black;"> Student Testimonial 1 </h1>
-                    <h4 class="testimonial-text"><b> "I have learned so much about Marathi language and culture. It's a wonderful experience!" </b></h4>
-                </div>
-                <div class="carousel-item">
-                    <h1 style="color: black;">Student Testimonial 2 </h1>
-                    <h4 class="testimonial-text">"The classes are engaging and Mrs. Priyanka is an excellent teacher. Highly recommended!"</h4>
-                </div>
-                <div class="carousel-item">
-                    <h1 style="color: black;"> Student Testimonial 3 </h1>
-                    <h4 class="testimonial-text">"Learning Marathi has never been easier. Thank you for this opportunity!"</h4>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div> -->
-        <!-- End Testimonial Carousel -->
-        
     </div>
 
     <!-- Contact Us -->
-    <div class="container">
-        <div class="row contact-us" id="contact">
-            <div style="text-align: center; padding-left: 425px;">
+    <div class="container mt-5" id="contact">
+        <div class="row">
+            <div class="col-12 text-center">
                 <h2>Contact Us</h2>
-                <ul class="list-unstyled">
-                    <li><i class="fas fa-envelope"></i> Email: akshara.marathishala@gmail.com</li>
-                    <li><i class="fas fa-map-marker-alt"></i> Address: Fremont, CA</li>
-                </ul>
-                <!-- <form>
-                    <div class="form-group">
-                        <label for="contactName"><i class="fas fa-user"></i> Name</label>
-                        <input type="text" class="form-control" id="contactName" placeholder="Enter your name">
-                    </div>
-                    <div class="form-group">
-                        <label for="contactEmail"><i class="fas fa-envelope"></i> Email</label>
-                        <input type="email" class="form-control" id="contactEmail" placeholder="Enter your email">
-                    </div>
-                    <div class="form-group">
-                        <label for="contactPhone"><i class="fas fa-phone"></i> Phone Number</label>
-                        <input type="text" class="form-control" id="contactPhone" placeholder="Enter your phone number">
-                    </div>
-                    <div class="form-group">
-                        <label for="contactMessage"><i class="fas fa-comment-alt"></i> Message</label>
-                        <textarea class="form-control" id="contactMessage" rows="4" placeholder="Enter your message"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Submit</button>
-                </form> -->
+                <p>Email: akshara.marathishala@gmail.com</p>
             </div>
         </div>
     </div>
 
     <!-- Footer -->
-    <footer class="text-center py-4">
+    <footer class="text-center py-4 mt-5">
         <p>&copy; 2024 अक्षरा मराठी शाळा. All rights reserved.</p>
     </footer>
 
@@ -185,20 +77,5 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script>
-        // JavaScript to activate the carousel and make it auto-rotate
-        $('.carousel').carousel({
-            interval: 5000, // Adjust interval as needed (in milliseconds)
-            pause: false // Set to true to pause on hover
-        });
-        
-        function showRegisterForm() {
-            document.getElementById('registerForm').style.display = 'block';
-        }
-    </script>
 </body>
 </html>
-
-
-
-<!-- EmbeddedCode: https://docs.google.com/spreadsheets/d/1Lt6-IRcRXUVLfKV_w9iFsvilN9tMM-sMq5lE0vYAos4/edit?usp=sharing -->
