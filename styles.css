@@ -1,0 +1,226 @@
+body{
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.custom-navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-left {
+    flex: 1;
+}
+
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.2rem; 
+}
+
+.navbar-nav .nav-link { 
+    color: #555;
+}
+
+.btn-register{
+    color: #555;
+}
+
+.navbar-toggler {
+    border: none;
+    padding: 0.25rem 0.5rem;
+}
+
+.navbar-toggler-icon {
+    width: 1.5em;
+    height: 1.5em; 
+}
+
+
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        margin-top: 10px; 
+    }
+    
+    .nav-right {
+        margin-left: auto; 
+    }
+    
+    .btn-register {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+
+.bg{
+    background-image: url('./bg1.png');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.red-text{
+    color: red;
+    text-align: center;
+    font-size: 26px;
+    padding: 2%;
+}
+
+#about{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.icon-box{
+    font-size: 40px;
+    color: #4CAF50;
+}
+
+#about h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+.img1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+}
+
+.pgm-container {
+    max-width: 70%;
+    margin: 1% auto;
+    padding: 2%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.pgm-container:hover{
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+.program-details h3{
+    color: #004080;
+}
+
+.program-details{
+    text-align: left;
+    padding: 2%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 5;
+    margin: 0 auto;
+}
+
+
+.card-course {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 30%;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+.card-course:hover{
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card-course h3 {
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+.card-course ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-course ul li {
+    margin: 10px 0;
+}
+
+.card-course button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: auto;
+    max-width: 50%;
+}
+
+.card-course button:hover {
+    background-color: #218838;
+}
+
+.fee-structure {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.modal-content iframe{
+    width: 100%;
+    height: 500px;
+}
+
+@media (max-width: 900px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .card-course {
+        width: 90%; /* Full width on smaller screens */
+        margin-bottom: 5%;
+    }
+
+    .pgm-container{
+        max-width: 90%;
+    }
+
+    .bg{
+        background-image: url('./bg2.png');
+        background-position: top center;
+    }
+
+    .modal-content iframe{
+        width: 100%;
+        height: 560px;
+    }
+
+}
+
+#contact{
+    text-align: center;
+}
+
+footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
