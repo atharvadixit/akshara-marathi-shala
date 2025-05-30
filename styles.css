@@ -53,12 +53,19 @@ body{
 
 
 .bg{
-    background-image: url('./bg1.png');
+    background-image: url('./bg1_up.png');
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     overflow-x: hidden;
+}
+
+.line{
+    height: 4px; 
+    background: linear-gradient(to right, #4CAF50, #81C784); 
+    border: none; 
+    margin: 30px 0;
 }
 
 .red-text{
@@ -205,7 +212,7 @@ body{
     }
 
     .bg{
-        background-image: url('./bg2.png');
+        background-image: url('./bg2_up.png');
         background-position: top center;
     }
 
