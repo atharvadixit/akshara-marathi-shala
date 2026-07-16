@@ -181,7 +181,7 @@ body{
         max-width: 90%;
     }
     .bg{
-        background-image: url('./bg3_up.png');
+        background-image: url('./responsive_bg.png');
         background-position: top center;
     }
     .modal-content iframe{
